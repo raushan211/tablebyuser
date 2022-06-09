@@ -16,7 +16,7 @@ func printTable(digit int) {
 	count := (digit * 10) + 1
 	for i = digit; i < count; i += digit {
 		fmt.Println(digit, "*", j, "=", i)
-		j += 1
+		j = +1
 
 	}
 }
